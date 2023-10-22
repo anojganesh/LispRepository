@@ -1,4 +1,4 @@
-(defstruct person name age)
+(defstruct person name age) ;; DEFINING PERSON OBJECT WITH PROPERTIES "NAME: " AND "AGE: "
 
 
 
@@ -34,7 +34,7 @@
 
 ;;; tests
 
-(let ((v (vector
+(let ((v (vector						;; CREATING PERSON OBJECTS WITH DIFFERENT NAMES AND AGES
                (make-person :name "Alice" :age 25)
                (make-person :name "Bob" :age 30)
                (make-person :name "Charlie" :age 20)
